@@ -13,13 +13,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    
-    - name: find folder
-      run: ls -a
-      
-    
+
     - name: compile
       run: gcc Main.c -o Main.exe
       
+    - name: find folder
+      run: ls -a
+      
     - name: run 
       run: Main.exe
+      
