@@ -19,7 +19,7 @@ jobs:
       
     
     - name: compile
-      run: gcc main.c -o run.exe 
+      run: gcc Main.c -o Main.exe
       
     - name: run 
-      run: run.exe
+      run: Main.exe
