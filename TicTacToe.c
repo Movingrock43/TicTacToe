@@ -5,6 +5,7 @@
 
     Jeremy Wei 3/12/23
 */
+#include <stdlib.h>
 
 char** mkBoard(){
     char** boardPtr = (char**)malloc(3*(sizeof(char)));
